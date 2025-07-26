@@ -41,5 +41,12 @@ Used FAISS with L2 distance over LaBSE embeddings. It's fast and effective for r
 How do you ensure meaningful question-chunk comparison?
 By using overlap during chunking and powerful sentence embeddings. If the query is vague or lacks context, retrieval may still surface semantically relevant chunks.
 
+Do the results seem relevant? What might improve them?
+Yes, relevant.
+Improvement ideas:
+Use Bangla-specific QA models (if available)
+Try paragraph-based chunking for richer context
+Add reranking with model confidence
+
 I originally wanted to use an OpenAI model for the embeddings and the LLM, but I wasn’t sure how to properly use my API key in Google Colab. I tried a few different methods, but couldn’t get it to work.
 To be honest, I didn’t know about Retrieval-Augmented Generation (RAG) before. I only started learning about it after receiving the project instructions via email. Since then, I’ve been doing my best to understand the concept and build the project.I’m not fully satisfied with the output yet, but this has been a great learning experience for me. I’ve learned how to build and deploy something new, and I’m proud of the effort I’ve put into it.
